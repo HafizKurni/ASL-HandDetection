@@ -31,7 +31,11 @@ Pada file pridect.py dan live.py :
 ```console
 model_path = '../HandASL5/beste11.pt'
 ```
-2. Jika ingin mengubah file .pt sesuai dengan hasil tarining sendiri, bisa mencari file nya di folder weight yang di generate setelah training data
+2. Untuk bagian file pridect.py, kalian bisa mengubah path folder penyimpanan video nya.
+```console
+model.predict(source="../TestVideoASL.mp4", show=True, conf=0.5)
+```
+3. Jika ingin mengubah file .pt sesuai dengan hasil tarining sendiri, bisa mencari file nya di folder weight yang di generate setelah training data
 
 
 Selamat Mencoba
