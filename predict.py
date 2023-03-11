@@ -15,7 +15,7 @@ import cv2
 # out = cv2.VideoWriter(video_path_out, cv2.VideoWriter_fourcc(*'mp4v'), int(cap.get(cv2.CAP_PROP_FPS)), (W, H))
 
 # model_path = os.path.join('.', 'models', 'best.pt')
-model_path = 'Colab/HandASL5/beste11.pt'
+model_path = 'ASL-HandDetection/beste11.pt'
 model = YOLO(model_path)
 
 model.predict(source="Colab/TestVideoASL.mp4", show=True, conf=0.5)
