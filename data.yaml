@@ -1,16 +1,7 @@
-path: /Users/hafiz/Documents/VSCode/Python/HandDetection/Colab/HandASL5
+path: ../ASL-HandDetection
 train: ../train/images
 val: ../train/images
 test: ../train/images
-# val: ../valid/images
-# test: ../test/images
 
 nc: 6
 names: ["Hello", "No", "Yes", "Please", "ILoveYou", "ThankYou"]
-
-roboflow:
-  workspace: projectai-e4iox
-  project: handasl
-  version: 3
-  license: MIT
-  url: https://universe.roboflow.com/projectai-e4iox/handasl/dataset/3
