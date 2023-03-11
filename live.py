@@ -7,7 +7,7 @@ import cv2
 # model_path = os.path.join('.', 'weights', 'best.pt')
 # model_path = 'Colab/HandASL5/yolov8n.pt'
 
-model_path = 'Colab/HandASL5/beste11.pt'
+model_path = 'ASL-HandDetection/beste11.pt'
 model = YOLO(model_path)
 model.predict(source="0", show=True, conf=0.5)
 
