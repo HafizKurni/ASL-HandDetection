@@ -29,11 +29,11 @@ Pada file vs_CodeNN.ipynb :
 Pada file pridect.py dan live.py :
 1. Pastikan mengubah bagian ini sesuai dengan path penyimpanan anda
 ```console
-model_path = '../HandASL5/beste11.pt'
+model_path = '../ASL-HandDetection/beste11.pt'
 ```
 2. Untuk bagian file pridect.py, kalian bisa mengubah path folder penyimpanan video nya.
 ```console
-model.predict(source="../TestVideoASL.mp4", show=True, conf=0.5)
+model.predict(source="../ASL-HandDetection/TestVideoASL.mp4", show=True, conf=0.5)
 ```
 3. Jika ingin mengubah file .pt sesuai dengan hasil tarining sendiri, bisa mencari file nya di folder weight yang di generate setelah training data
 
